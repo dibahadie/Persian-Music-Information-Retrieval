@@ -1,18 +1,20 @@
-# Persian Music Information Retrieval & Generation Paper Collection
+# Turkish Music Information Retrieval & Generation Paper Collection
 
-A curated, comprehensive collection of research papers, datasets, and computational resources for the analysis, recognition, and generative modeling of Persian Classical and Folk music.
+A curated, comprehensive collection of research papers, datasets, and computational resources for the analysis, recognition, and generative modeling of Ottoman-Turkish Classical and Folk music.
 
 ## 📖 Overview
-Persian music is built upon the *Radif* system and *Dastgah* modes, utilizing microtonal intervals (notably *Koron* and *Sori*) that challenge standard Western MIR techniques. This repository serves as a central hub for researchers to find papers and datasets.
+Turkish music is built upon the *Makam* system and *Usul* rhythmic cycles, utilizing a microtonal interval system (typically modeled via 24-tone Arel-Ezgi-Uzdilek theory) that challenges standard Western MIR techniques. This repository serves as a central hub for researchers to find papers and datasets.
 
 ---
 
 ## 📋 Table of Contents
 - [Datasets & Corpora](#-datasets--corpora)
 - [Research Papers](#-research-papers)
-  - [Dastgah & Mode Recognition](#dastgah--mode-recognition)
-  - [Generative Models & Deep Learning](#generative-models--deep-learning)
-  - [Analysis & Transcription](#analysis--transcription)
+  - [Foundations and Databases](#foundations-and-databases-symbtr-era)
+  - [Automatic Makam & Pitch Analysis](#automatic-makam--pitch-analysis)
+  - [Automatic Transcription & Source Separation](#automatic-transcription--source-separation)
+  - [Generation and Artificial Intelligence](#generation-and-artificial-intelligence)
+  - [Theoretical and Structural Analysis](#theoretical-and-structural-analysis)
 - [License & Citation](#-license--citation)
 
 ---
@@ -22,11 +24,10 @@ Links to the primary data sources used in the field.
 
 | Dataset | Type | Description | Link |
 | :--- | :--- | :--- | :--- |
-| **Shur** | Audio | A polyphonic instrument classification dataset for persian music. | [Link](https://huggingface.co/datasets/dibahadie/Shur) |
-| **IRMA** | Audio | A collection of symbolic and analytical representations of canonical radif repertoires in Iranian classical music. | [Link](https://github.com/SepiSha/irma-dataset) |
-| **Radif Corpus** | Symbolic | A digital corpus representing the complete non-metrical Radif repertoire | [Link](https://arxiv.org/abs/2507.10456) |
-| **HamNava** | Audio | Multi-label dataset for instrument classification. | [Link](https://navaalab.github.io/resources/dataset/hamnava.html) |
-| **Nava** | Audio | Benchmark for Dastgah and instrument recognition. | [Link](https://jasp.tabrizu.ac.ir/article_10444.html?lang=en) |
+| **SymbTr** | Symbolic | The largest machine-readable collection of Makam scores (2200+ pieces). | [Link](https://github.com/MTG/SymbTr) |
+| **Dunya Makam** | Audio/Score | A web-based corpus exploration tool and dataset by CompMusic. | [Link](https://dunya.compmusic.upf.edu/makam/) |
+| **MORTY** | Audio | Dataset for Makam recognition and Tonic Identification. | [Link](https://github.com/MTG/otmm_makam_recognition_dataset) |
+| **Uzun Hava** | Audio | A collection for the study of unmetered Turkish folk melodies. | [Link](https://repositori.upf.edu/handle/10230/33130) |
 
 ---
 
@@ -76,4 +77,4 @@ This curated list is licensed under the **CC-BY-4.0 License**.
 
 If you use this repository for your research, please cite it as follows:
 ```text
-Diba Hadi Esfangereh. (2026). Persian-Music-Information-Retrieval: A Comprehensive Research Hub. GitHub.
+Diba Hadi Esfangereh. (2026). Culturally-Grounded-MIR: A Comprehensive Research Hub. GitHub.

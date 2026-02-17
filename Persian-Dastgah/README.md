@@ -67,4 +67,4 @@ This curated list is licensed under the **CC-BY-4.0 License**.
 
 If you use this repository for your research, please cite it as follows:
 ```text
-Diba Hadi Esfangereh. (2026). Persian-Music-Information-Retrieval: A Comprehensive Research Hub. GitHub.
+Diba Hadi Esfangereh. (2026). Culturally-Grounded-MIR: A Comprehensive Research Hub. GitHub.

@@ -1,4 +1,4 @@
-# Persian Music Information Retrieval (MIR) & Generation
+# Persian Music Information Retrieval & Generation Paper Collection
 
 A curated, comprehensive collection of research papers, datasets, and computational resources for the analysis, recognition, and generative modeling of Persian Classical and Folk music.
 
